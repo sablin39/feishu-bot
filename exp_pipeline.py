@@ -22,7 +22,7 @@ qa_system = DummyAgent(chat_model=ChatOpenAI(model_name="gpt-3.5-turbo",
 
 
 
-
+# TODO ADD assign functions to assign msgs to different agents/check if mentions before answering
 def gpt_callback(data: P2ImMessageReceiveV1):
     global qa_system
     global im_client
