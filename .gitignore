@@ -2,3 +2,5 @@
 .env
 test*.ipynb
 test*.py
+userdata/**
+**/*.log
