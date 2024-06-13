@@ -28,6 +28,7 @@ def gpt_callback(data: P2ImMessageReceiveV1):
     global im_client
 
     msg_id=data.event.message.message_id
+    data.event.message.mentions[0].name==""
     msg_content=eval(data.event.message.content)
     result=qa_system.answer_question(msg_content["text"].replace("@_user_1","You've asked the question: "))
     answer_dict={"text":result}

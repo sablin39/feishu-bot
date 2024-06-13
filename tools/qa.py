@@ -41,6 +41,9 @@ class QuestionAnsweringSystem:
         
         # Return the answer and sources
         return result
+    
+    def run(self,query:str)->str:
+        return
 
 # Example usage:
 if __name__ == "__main__":
