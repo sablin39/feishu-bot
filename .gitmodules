@@ -1,0 +1,3 @@
+[submodule "tools/PDF-Extract-Kit"]
+	path = tools/PDF-Extract-Kit
+	url = git@github.com:decentralized-quant/PDF-Extract-Kit.git
